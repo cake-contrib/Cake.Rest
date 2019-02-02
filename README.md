@@ -9,7 +9,7 @@ Cake Add-in to ease consumption of REST APIs using [RestSharp](http://restsharp.
 | | master branch |
 |---|---|
 |NuGet|[![NuGet](https://img.shields.io/nuget/v/Cake.Rest.svg)](https://www.nuget.org/packages/Cake.Rest)|
-|AppVeyor|[![Build status](https://img.shields.io/appveyor/ci/hadi77ir/Cake.Rest.svg)](https://ci.appveyor.com/project/hadi77ir/cake-rest)|
+|AppVeyor|[![Build status](https://img.shields.io/appveyor/ci/hadi77ir/cake-rest.svg)](https://ci.appveyor.com/project/hadi77ir/cake-rest)|
 |Travis CI|[![Build status](https://img.shields.io/travis/ci/hadi77ir/Cake.Rest.svg)](https://travis-ci.com/hadi77ir/Cake.Rest)|
 |Code Coverage|[![Code Coverage](https://img.shields.io/coveralls/github/hadi77ir/Cake.Rest.svg?style=flat)](https://coveralls.io/github/hadi77ir/Cake.Rest)|
 
