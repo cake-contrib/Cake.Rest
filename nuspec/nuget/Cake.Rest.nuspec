@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Cake.Rest</id>
+    <version>0.0.0</version>
+    <authors>Mohammad Hadi Hosseinpour</authors>
+    <owners>Mohammad Hadi Hosseinpour</owners>
+    <description>Cake Addin for easily consuming REST APIs through RestSharp.</description>
+    <summary>A set of aliases for Cake to ease usage of RestSharp and consuming REST APIs.</summary>
+    <licenseUrl>https://github.com/hadi77ir/Cake.Rest/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/hadi77ir/Cake.Rest</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/cake-build/graphics/master/png/cake-medium.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright (c) 2018 Mohammad Hadi Hosseinpour</copyright>
+    <tags>Cake, Script, Build, Rest, RestSharp, Addin</tags>
+  </metadata>
+  <files>
+    <file src="netstandard2.0\Cake.Rest.dll" target="lib\netstandard2.0" />
+    <file src="netstandard2.0\Cake.Rest.pdb" target="lib\netstandard2.0" />
+    <file src="netstandard2.0\Cake.Rest.xml" target="lib\netstandard2.0" />
+  </files>
+</package>
