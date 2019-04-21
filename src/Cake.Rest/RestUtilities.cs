@@ -54,7 +54,7 @@ namespace Cake.Rest
             });
 
             // force usage of json.net
-            return client.UseSerializer(JsonSerializer);
+            return client.UseSerializer(() => JsonSerializer);
         }
 
         /// <summary>
