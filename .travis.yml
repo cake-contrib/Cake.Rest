@@ -23,7 +23,7 @@ env:
 #        Build Dependencies       #
 #---------------------------------#
 mono: latest
-dotnet: 2.1.300
+dotnet: 2.1.502
 
 #---------------------------------#
 #        Cake Bootstrapper        #
