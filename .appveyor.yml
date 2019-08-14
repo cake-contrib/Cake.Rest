@@ -1,26 +1,29 @@
 #---------------------------------#
-#         Build Environment       #
+#  Build Image                    #
 #---------------------------------#
 image: Visual Studio 2017
 
 #---------------------------------#
-#      Environment Variables      #
-#---------------------------------#
-environment:
-  DOTNET_CLI_TELEMETRY_OPTOUT: 1
-  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
-    
-#---------------------------------#
-#        Cake Bootstrapper        #
+#  Build Script                   #
 #---------------------------------#
 build_script:
   - ps: .\build.ps1 -Target AppVeyor
 
 #---------------------------------#
-#         Test and Deploy         #
+# Tests
 #---------------------------------#
-test: off # tests are handled by cake script
-deploy: off # deploy are handled by cake script
+test: off
+
+#---------------------------------#
+#  Pull Requests                  #
+#---------------------------------#
+pull_requests:
+  do_not_increment_build_number: true
+
+#---------------------------------#
+#  General                        #
+#---------------------------------#
+skip_branch_with_pr: true
 
 #---------------------------------#
 #        Branches to build        #
@@ -28,13 +31,20 @@ deploy: off # deploy are handled by cake script
 branches:
   # Whitelist
   only:
+    - develop
     - master
     - /release/.*/
     - /hotfix/.*/
 
 #---------------------------------#
-#           Build Cache           #
+#  Build Cache                    #
 #---------------------------------#
 cache:
-- Source\packages -> Source\**\packages.config
-- tools -> setup.cake
+- tools -> recipe.cake, tools/packages.config
+
+#---------------------------------#
+#  Skip builds for doc changes    #
+#---------------------------------#
+skip_commits:
+  # Regex for matching commit message
+  message: /(doc).*/

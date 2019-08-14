@@ -29,7 +29,7 @@ dotnet: 2.1.502
 #        Cake Bootstrapper        #
 #---------------------------------#
 script:
-  - ./build.sh --verbosity=diagnostic -s ./setup.cake
+  - ./build.sh --verbosity=diagnostic -s ./recipe.cake
 
 #---------------------------------#
 #           Build Cache           #

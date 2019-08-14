@@ -7,11 +7,12 @@
     <owners>Mohammad Hadi Hosseinpour</owners>
     <description>Cake Addin for easily consuming REST APIs through RestSharp.</description>
     <summary>A set of aliases for Cake to ease usage of RestSharp and consuming REST APIs.</summary>
-    <licenseUrl>https://github.com/hadi77ir/Cake.Rest/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/hadi77ir/Cake.Rest</projectUrl>
+    <projectUrl>https://github.com/cake-contrib/Cake.Rest</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright (c) 2019 Mohammad Hadi Hosseinpour</copyright>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/cake-contrib/Cake.Rest.git"/>
     <tags>Cake, Script, Build, Rest, RestSharp, Addin</tags>
   </metadata>
   <files>
