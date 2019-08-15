@@ -2,16 +2,16 @@
 
 Cake Add-in to ease consumption of REST APIs using [RestSharp](http://restsharp.org/).
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/hadi77ir/Cake.Rest/blob/master/LICENSE)
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/cake-contrib/Cake.Rest/blob/master/LICENSE)
 
 ## Information
 
 | | master branch |
 |---|---|
 |NuGet|[![NuGet](https://img.shields.io/nuget/v/Cake.Rest.svg)](https://www.nuget.org/packages/Cake.Rest)|
-|AppVeyor|[![Build status](https://img.shields.io/appveyor/ci/hadi77ir/cake-rest.svg)](https://ci.appveyor.com/project/hadi77ir/cake-rest)|
-|Travis CI|[![Build status](https://api.travis-ci.com/hadi77ir/Cake.Rest.svg?branch=master)](https://travis-ci.com/hadi77ir/Cake.Rest)|
-|Code Coverage|[![Code Coverage](https://img.shields.io/coveralls/github/hadi77ir/Cake.Rest.svg?style=flat)](https://coveralls.io/github/hadi77ir/Cake.Rest)|
+|AppVeyor|[![Build status](https://img.shields.io/appveyor/ci/cakecontrib/cake-rest.svg)](https://ci.appveyor.com/project/cakecontrib/cake-rest)|
+|Travis CI|[![Build status](https://api.travis-ci.com/cake-contrib/Cake.Rest.svg?branch=master)](https://travis-ci.com/cake-contrib/Cake.Rest)|
+|Code Coverage|[![Code Coverage](https://img.shields.io/coveralls/github/cake-contrib/Cake.Rest.svg?style=flat)](https://coveralls.io/github/cake-contrib/Cake.Rest)|
 
 ## Build
 
